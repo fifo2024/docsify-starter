@@ -1,0 +1,21 @@
+{
+    "name": "my-project",
+    "scripts": {
+        "start": "docsify serve docs"
+    },
+    "files": [
+        "docs"
+    ],
+    "docsify": {
+        "config": {
+            "basePath": "https://docsify.js.org/",
+            "loadSidebar": true,
+            "loadNavbar": true,
+            "coverpage": true,
+            "name": "docsify"
+        }
+    },
+    "devDependencies": {
+        "docsify-cli": "^4.4.4"
+    }
+}
